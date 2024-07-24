@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Checkout.css">
+    <script src="Checkout.js" defer></script>
+</head>
+
+<body>
+
+    <div class="menu-bar">
+        <a href="Homepage.html" id="home" class="home-btn">Home</a>
+        <a href="bookcollection.html" id="home" class="checkout-btn">Collection</a>
+
+    </div>
+
+    <div class="container">
+
+        <div class="left"
+            style="display: flex; flex-direction: column;gap: 40px; border-radius: 35px; background-color: #192719; color: #F5D9A9; padding: 30px; height: 89.5vh; width: 45%;">
+
+
+            <!--العنوان-->
+            <div class="checkout" style="display: flex; flex-direction: column; display: block; width: 100%;">
+                <h3 style="font-family: 'Roboto', sans-serif; color: #F5D9A9; font-size: 25px; margin-bottom: 20px;">
+                    Checkout:</h3>
+                <hr style="background-color: #F5D9A9; height: 2px; outline: 0; border: none;">
+            </div>
+
+            <!--inputs-->
+            <div class="inputs" id="input" style="gap: 10px; display: flex; flex-direction: column;">
+                <input type="text" placeholder="Full name" class="input"
+                    style="background-color: #F5D9A9; color: #192719; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 10px; outline: 0;"
+                    required="">
+                <input type="number" placeholder="Phone number" class="input"
+                    style="background-color: #F5D9A9; color: #192719; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 10px;  outline: 0;"
+                    required="">
+                <input type="email" placeholder="Email" class="input"
+                    style="background-color: #F5D9A9; color: #192719; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 10px;  outline: 0;"
+                    required="">
+                <input type="text" placeholder="Country" class="input"
+                    style="background-color: #F5D9A9; color: #192719; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 10px;  outline: 0;"
+                    required="">
+                <input type="text" placeholder="City" class="input"
+                    style="background-color: #F5D9A9; color: #192719; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 10px;  outline: 0;"
+                    required="">
+            </div>
+
+
+
+            <!--btn-->
+            <div class="btn" style="align-self: center;">
+                <button type="submit" class="proceed" id="proceed"
+                    style="background-color: #F5D9A9; color: #192719; font-family: 'Roboto', sans-serif; font-weight: 500; padding: 10px;">Proceed
+                    to Payment</button>
+            </div>
+
+            <img src="images/Tall tails-42.png" height="200px" width="200px" style="align-self: center;">
+        </div>
+
+
+
+
+
+        <!--right side-->
+
+        <div class="order" id="order"
+            style="display: flex; flex-direction: column; gap: 20px; border-radius: 35px; background-color: #192719; color: #F5D9A9;padding:30px 40px 30px 40px;">
+            <h3 style="font-family: 'Roboto', sans-serif; color: #F5D9A9; font-size: 25px;">Order Summary:</h3>
+            <hr style="background-color: #F5D9A9; height: 2px; outline: 0; border: none;">
+
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>

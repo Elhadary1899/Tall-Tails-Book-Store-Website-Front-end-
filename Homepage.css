@@ -1,0 +1,160 @@
+/*عشان ادخل فونت من جوجل فونت*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+/*عشان ادخل فونت خارجى*/
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/BastedClubs-Bold.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+h1 {
+    font-family: myFont;
+    font-size: 50px;
+}
+
+body {
+background-color: #192719;
+padding: 20px 30px 30px 30px;
+display: flex;
+flex-direction: column;
+animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+from {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.welcome {
+ display: flex;
+ flex-direction: column;
+align-items: center;
+color: #F5D9A9;
+bottom: -13px;
+position: relative;
+}
+
+.about-us {
+    text-align: left;
+    color: #F5D9A9;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-btns {
+    display: flex;
+    gap: 150px;
+    margin-top: 60PX;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-collection {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5D9A9;
+    border-radius: 20px;
+}
+
+.middle-section {
+    color: #192719;
+    margin-top: 100px;
+}
+
+.right {
+    display: flex; 
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.right img {
+    transition: 0.5s ease;
+    cursor: pointers;
+}
+
+.right img:hover {
+    transform: scale(1.2);
+
+}
+
+.left {
+    display: flex; 
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.left img {
+    transition: 0.5s ease;
+    cursor: pointers;
+}
+
+.left img:hover {
+    transform: scale(1.2);
+
+}
+
+.sec-collection {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #F5D9A9;
+    border-radius: 20px;
+}
+
+
+
+.third-collection {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #F5D9A9;
+    border-radius: 20px;
+}
+
+.loan-section {
+    color: #F5D9A9;
+    margin-top: 100px;
+    padding: 0 0px 0px 30px;
+}
+
+
+.last-section {
+    color: #F5D9A9; 
+    margin-top: 70px;
+    padding: 0 30px 0px 30px;
+}
